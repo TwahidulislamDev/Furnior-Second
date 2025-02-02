@@ -361,6 +361,142 @@ a {
   font-weight: 400;
   color: #898989;
 }
-
 /* Warranty Section End */
+/* Footer Section Start */
+#footerPart{
+  margin-bottom: 50px;
+}
+.footerFlex{
+  border-top:1px solid gray ;
+  border-bottom:1px solid gray;
+  display: flex;
+  justify-content: space-between; 
+}
+.brandName{
+  padding-top: 50px;
+  width: 30%;
+}
+.brandName h1{
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 60px;
+}
+.brandName p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #9F9F9F;
+  line-height: 20px;
+}
+.brandLink{
+  padding-top: 50px;
+  width: 20%;
+}
+.brandLink h1{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 60px; 
+}
+.brandLink h2{
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 40px; 
+  color: #9F9F9F;
+}
+.brandLink h3{
+  font-size: 14px;
+  font-weight: 400;  
+  padding-bottom: 40px;
+  color: #9F9F9F;
+}
+.brandLink h4{
+  font-size: 14px;
+  font-weight: 400; 
+  padding-bottom: 40px; 
+  color: #9F9F9F;
+}
+.brandLink p{
+  font-size: 14px;
+  font-weight: 400; 
+  color: #9F9F9F; 
+  padding-bottom: 40px;
+}
+.help h1{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 60px; 
+}
+.help{
+  padding-top: 50px;
+  width: 20%;
+}
+.help h2{  
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 40px; 
+  color: #9F9F9F;
+}
+.help h3{  
+  font-size: 14px;
+  font-weight: 400;  
+  padding-bottom: 40px;
+  color: #9F9F9F;
+}
+.help h4{  
+  font-size: 14px;
+  font-weight: 400; 
+  padding-bottom: 40px; 
+  color: #9F9F9F;
+}
+.brandNewsletter{
+  padding-top: 50px;
+  width: 30%;
+}
+.brandNewsletter h1{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 60px;  
+}
+.brandNewLetterFlex{
+  display: flex;
+}
+.footerForm input{
+  border: none;
+  background: transparent;
+  padding: 10px 20px 10px 0;
+  border-bottom: 2px solid black;
+  display: block;
+  margin-right: 10px;
+}
+.footerFormText{
+  border-bottom: 2px solid black;
+}
+/* .footerFormText button{
+  padding: 10px 10px;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+} */
+.footerFormText a{
+  padding: 10px 10px;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: .5s;
+  color: black;
+}
+.footerFormText a:hover{
+  padding: 10px 10px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: #e97171;
+}
+.copyRight h3{
+  text-align: center;
+  font-size: 14px;
+  color: #9F9F9F;
+  font-weight: 400;
+  padding-top: 10px;
 
+}
+/* Footer Section End */
